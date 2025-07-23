@@ -6,3 +6,73 @@
   font-variation-settings:
     "wdth" 100;
 }
+.bg-color{
+}
+/* navbar styles start  */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 590px;
+}
+.nav-links{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.logo{
+    width: 135px;
+    height: 82px;
+}
+a{
+    text-decoration: none;
+     font-size: bold;
+    font-weight: 1rem;
+    color: #8987A1;
+}
+ul li{
+    list-style-type: none;
+   
+}
+.home-title{
+    font-size: bold;
+    font-weight: 1rem;
+    color: #252432;
+}
+.cart-title{
+    font-size: bold;
+    font-weight: 1rem;
+    color: #000000;
+}
+.cart-space{
+    margin-left: 8px;
+}
+
+/* banner part css start  */
+.banner{
+    width: 1140px;
+    margin: 109px auto;
+}
+.banner-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.banner-items{
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 4.2rem;
+    margin: 0px;
+}
+.color-text{
+    color: #E95A08;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
