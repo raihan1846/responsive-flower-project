@@ -50,7 +50,7 @@ ul li{
 
 /* banner part css start  */
 .banner{
-    width: 1140px;
+    max-width: 1140px;
     margin: 109px auto;
 }
 .banner-content{
@@ -76,3 +76,51 @@ ul li{
     color: rgba(0, 0, 0, 0.5);
 }
 
+/* plants style start  */
+.plants{
+    max-width: 1140px;
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.plants-title{
+    font-weight: bold;
+    font-size: 3.1rem;
+    margin: 0px;
+
+}
+.plants-description{
+    max-width: 888px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.plants-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.btn-primary{
+    height: 50px;
+    width: 270px;
+    background-color: #E95A08;
+    font-size: 1rem;
+    color: #FFFFFF;
+    border: none;
+}
+.card-title{
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+    color: rgba(17, 17, 17, 1);
+}
+.card-price{
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-align: center;
+    color: rgba(17, 17, 17, 1);
+}
