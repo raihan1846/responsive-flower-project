@@ -1,83 +1,96 @@
 .open-sans-font {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
-.bg-color{
-}
+
+.bg-color {}
+
 /* navbar styles start  */
-.navbar{
+.navbar {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
     gap: 590px;
 }
-.nav-links{
+
+.nav-links {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.logo{
+
+.logo {
     width: 135px;
     height: 82px;
 }
-a{
+
+a {
     text-decoration: none;
-     font-size: bold;
+    font-size: bold;
     font-weight: 1rem;
     color: #8987A1;
 }
-.list-type-none{
+
+.list-type-none {
     list-style-type: none;
-   
+
 }
-.home-title{
+
+.home-title {
     font-size: bold;
     font-weight: 1rem;
     color: #252432;
 }
-.cart-title{
+
+.cart-title {
     font-size: bold;
     font-weight: 1rem;
     color: #000000;
 }
-.cart-space{
+
+.cart-space {
     margin-left: 8px;
 }
 
 /* banner part css start  */
-.banner{
+.banner {
     max-width: 1140px;
     margin: 109px auto;
 }
-.banner-content{
+
+.banner-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.banner-items{
-   display: flex;
-   flex-direction: column;
-   justify-content: end;
+
+.banner-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
-.banner-title{
+
+.banner-title {
     font-weight: bold;
     font-size: 4.2rem;
     margin: 0px;
 }
-.color-text{
+
+.color-text {
     color: #E95A08;
 }
-.banner-description{
+
+.banner-description {
     font-weight: 400;
     font-size: 1.6rem;
     color: rgba(0, 0, 0, 0.5);
 }
 
 /* plants style start  */
-.plants{
+.plants {
     max-width: 1140px;
     margin: 120px auto;
     display: flex;
@@ -86,25 +99,29 @@ a{
     align-items: center;
 
 }
-.plants-title{
+
+.plants-title {
     font-weight: bold;
     font-size: 3.1rem;
     margin: 0px;
 
 }
-.plants-description{
+
+.plants-description {
     max-width: 888px;
     font-weight: 400;
     font-size: 1.6rem;
     color: rgba(0, 0, 0, 0.5);
     text-align: center;
 }
-.plants-content{
+
+.plants-content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
 }
-.btn-primary{
+
+.btn-primary {
     height: 50px;
     width: 270px;
     background-color: #E95A08;
@@ -112,13 +129,15 @@ a{
     color: #FFFFFF;
     border: none;
 }
-.card-title{
+
+.card-title {
     font-weight: 600;
     font-size: 1.6rem;
     text-align: center;
     color: rgba(17, 17, 17, 1);
 }
-.card-price{
+
+.card-price {
     font-weight: bold;
     font-size: 1.6rem;
     text-align: center;
@@ -126,38 +145,147 @@ a{
 }
 
 /* plants lover styles  */
-.plants-lover{
+.plants-lover {
     max-width: 1140px;
     margin: 210px auto;
+    height: 597px;
 }
-.plants-lover-content{
+
+.plants-lover-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 60px;
 }
-.plants-lover-title{
+
+.plants-lover-title {
     font-weight: bold;
     font-size: 3.1rem;
     max-width: 460px;
     margin-bottom: 0px;
 }
-.plants-lover-description{
+
+.plants-lover-description {
     font-weight: 400;
     font-size: 1.6rem;
     color: rgba(0, 0, 0, 0.5);
 }
+
 .flower-store-wrapper {
-  background-image: linear-gradient(rgba(103, 171, 234, 0.4), rgba(103, 171, 234, 0.4)), url('../assets/flower-store.png');
-  background-size: cover;
-  background-position: center;
-  width: 100%; 
-  height: 597px; 
+    background-image: linear-gradient(rgba(103, 171, 234, 0.4), rgba(103, 171, 234, 0.4)), url('../assets/flower-store.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 597px;
 }
 
-.trusted-img{
+.trusted-img {
+    background-image: url('../assets/trusted-badge.png');
+    background-size: cover;
+    background-position: center;
     width: 286px;
     height: 286px;
     position: relative;
     right: -350px;
     bottom: 750px;
+}
+
+/* latest deal styles  */
+.latest-deal {
+    max-width: 1140px;
+    margin: 140px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.latest-deal-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 435px;
+}
+
+.deal-ana {
+    background-image: linear-gradient(rgba(103, 171, 234, 0.4), rgba(103, 171, 234, 0.4)), url('../assets/deal-ana.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 367px;
+    height: 210px;
+    border-radius: 22px;
+
+
+}
+
+.deal-bloom {
+    background-image: linear-gradient(rgba(103, 171, 234, 0.4), rgba(103, 171, 234, 0.4)), url('../assets/deal-bloom.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 367px;
+    height: 210px;
+    border-radius: 22px;
+}
+
+.latest-deal-img2 {
+    background-image: linear-gradient(rgba(103, 171, 234, 0.4), rgba(103, 171, 234, 0.4)), url('../assets/deal-zabo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 753px;
+    height: 435px;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.latest-deal-img1 {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.latest-deal-title {
+    font-weight: bold;
+    font-size: 3.1rem;
+    margin: 0px;
+}
+
+.latest-deal-description {
+    max-width: 888px;
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.deal-ana{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.deal-ana-title{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}
+.shop-now, .shop-now-click{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #FFFFFF;
+    border-bottom: 1px solid wheat;
+}
+.latest-deal-img2-title{
+    font-weight: bold;
+    font-size: 2.6rem;
+    color: #FFFFFF;
+}
+.shop-now-main, .shop-now-click-two{
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+    border-bottom: 1px solid wheat;
 }
