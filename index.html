@@ -20,9 +20,9 @@
         <nav class="navbar">
             <a href=""><img class="logo" src="assets/Pasted image.png" alt=""></a>
             <ul class="nav-links">
-                <li class="list-type-none"><a class="home-title" href="">Home</a></li>
-                <li class="list-type-none"><a href="">Shop</a></li>
-                <li class="list-type-none"><a href="">About us</a> </li>
+                <li class="list-type-none hide-column"><a class="home-title" href="">Home</a></li>
+                <li class="list-type-none hide-column"><a href="">Shop</a></li>
+                <li class="list-type-none hide-column"><a href="">About us</a> </li>
                 <li class="list-type-none"><a class="cart-title" href=""><i class="fa-solid fa-cart-shopping"></i><span
                             class="cart-space">Cart
                             ($56)</span></a></li>
@@ -107,13 +107,11 @@
                 <div class="plant-img">
                     <div class="flower-store-wrapper">
                     </div>
-                    <div class="trusted-img"></div>
-                    <!-- <img class="trusted-img" src="assets/trusted-badge.png" alt=""> -->
-
+                    <div class="trusted-img spin"></div>
                 </div>
                 <div class="plants-lover-items">
                     <h3 class="plants-lover-title">Flower & Plants Lover</h3>
-                    <ul>
+                    <ul class="main-items">
                         <li class="plants-lover-description">Indulge your senses with the beauty and fragrance of our
                             fresh flower shop. From classic
                             roses to exotic blooms, we offer a wide variety of fresh.</li>
@@ -140,8 +138,8 @@
                         <p class="shop-now"><a class="shop-now-click" href="">Shop Now</a></p>
                     </div>
                     <div class="deal-ana">
-                        <h3 class="deal-ana-title">30% Off | Ana  Plant</h3>
-                    <p class="shop-now"><a class="shop-now-click" href="">Shop Now</a></p>
+                        <h3 class="deal-ana-title">30% Off | Ana Plant</h3>
+                        <p class="shop-now"><a class="shop-now-click" href="">Shop Now</a></p>
                     </div>
                 </div>
                 <div class="latest-deal-img2">
@@ -151,18 +149,49 @@
             </div>
         </section>
         <!-- colorful branch start  -->
-         <section class="colorful">
-              <div class="colorful-content">
+        <section class="colorful">
+            <div class="colorful-content">
                 <h3 class="colorful-title">Join the colorful Bunch</h3>
                 <div class="input-dev">
-                 <input class="email" type="email" value="" placeholder="Write Your Email">
-                 <button class="btn-primary">Subscribe</button> 
+                    <input class="email" type="email" value="" placeholder="Write Your Email">
+                    <button class="btn-primary">Subscribe</button>
                 </div>
-              </div>
-         </section>
+            </div>
+        </section>
     </main>
-    <footer>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="first-logo-content">
+                <img class="logo-footer" src="assets/Pasted image.png" alt="">
+                <p class="first-logo-content-description">Indulge your senses with the beauty and fragrance of our fresh
+                    flower shop.</p>
+            </div>
+            <div class="first-menu-content-one">
+                <ul>
+                    <li class="one"><a href="">Home</a></li>
+                    <li class="one"><a href="">About Us</a></li>
+                    <li class="one"><a href="">Blog</a></li>
+                    <li class="one"><a href="">FAQ</a></li>
+                    <li class="one"><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="first-menu-content-two">
+                  <ul>
+                    <li class="one"><a href="">Features</a></li>
+                    <li class="one"><a href="">Pricing</a></li>
+                    <li class="one"><a href="">Privacy Policy</a></li>
+                    <li class="one"><a href="">Terms of Service</a></li>
+                    <li class="one"><a href="">Help Center</a></li>
+                </ul>
+            </div>
+            <div class="first-social-content">
+                <img src="assets/icon-linkedin.png" alt="">
+                <img src="assets/icon-twitter.png" alt="">
+                <img src="assets/icon-facebook.png" alt="">
+                <img src="assets/icon-youtube.png" alt="">
+            </div>
 
+        </div>
     </footer>
 </body>
 
